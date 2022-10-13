@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f8da8d4e95b453698819dd881e3353a0",
+    "packages": [
+        {
+            "name": "xemlock/php-latex",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xemlock/php-latex.git",
+                "reference": "d60bf4c919426d4fa6978aa1f63208d64df5cc73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xemlock/php-latex/zipball/d60bf4c919426d4fa6978aa1f63208d64df5cc73",
+                "reference": "d60bf4c919426d4fa6978aa1f63208d64df5cc73",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=5.7"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PhpLatex_": "library"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "xemlock",
+                    "email": "xemlock@gmail.com"
+                }
+            ],
+            "description": "LaTeX parser and renderer",
+            "support": {
+                "issues": "https://github.com/xemlock/php-latex/issues",
+                "source": "https://github.com/xemlock/php-latex/tree/master"
+            },
+            "time": "2022-05-03T22:31:34+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "xemlock/php-latex": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
